@@ -1,5 +1,5 @@
 import { StytchUIClient } from "https://www.unpkg.com/@stytch/vanilla-js@0.9.5/dist/index.esm.js";
-import dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+import { dotenv } from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config()
 
 // const STYTCH_PUBLIC_TOKEN = process.env.STYTCH_PUBLIC_TOKEN
