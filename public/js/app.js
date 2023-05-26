@@ -1,6 +1,6 @@
 import { StytchUIClient } from "https://www.unpkg.com/@stytch/vanilla-js@0.9.5/dist/index.esm.js";
 
-const STYTCH_PUBLIC_TOKEN = `${process.env.STYTCH_PUBLIC_TOKEN}`
+const STYTCH_PUBLIC_TOKEN = `${process.env.PRIVATE_TOKEN}`
 
 // Export stytch so that the other scripts in this application can interact with it.
 export const stytch = new StytchUIClient(STYTCH_PUBLIC_TOKEN);
