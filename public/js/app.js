@@ -13,6 +13,7 @@ The logic below listens to the existence of a Stytch Session to:
 - redirect newly authenticated traffic to /profile.
 - redirect unauthenticated traffic to /profile.
 - redirect the user back to login if they log out.
+
 */
 const ROUTES = {
   LOGIN: "/",
