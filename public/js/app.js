@@ -4,7 +4,7 @@ import { StytchUIClient } from "https://www.unpkg.com/@stytch/vanilla-js@0.9.5/d
 // const STYTCH_PUBLIC_TOKEN = process.env.STYTCH_PUBLIC_TOKEN
 const STYTCH_PUBLIC_TOKEN = "public-token-live-ba72f491-8dbb-4957-ad2d-51594bbf6b4b"
 console.log("project-test-943986c5-33a7-4131-9011-eee73f1cd631")
-console.log(process.env.STYTCH_PUBLIC_TOKEN)
+
 
 // Export stytch so that the other scripts in this application can interact with it.
 export const stytch = new StytchUIClient(STYTCH_PUBLIC_TOKEN);
