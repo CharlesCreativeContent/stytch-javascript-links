@@ -1,7 +1,7 @@
 import { StytchUIClient } from "https://www.unpkg.com/@stytch/vanilla-js@0.9.5/dist/index.esm.js";
 
 // Replace this value with the public token found it your Stytch Dashboard.
-const STYTCH_PUBLIC_TOKEN = "public-token-test-a84e50fe-a5af-477e-bdf5-2ec7be6ef45e";
+const STYTCH_PUBLIC_TOKEN = process.env.STYTCH_PUBLIC_TOKEN;
 
 // Export stytch so that the other scripts in this application can interact with it.
 export const stytch = new StytchUIClient(STYTCH_PUBLIC_TOKEN);
