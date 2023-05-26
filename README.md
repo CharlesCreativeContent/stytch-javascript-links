@@ -1,10 +1,12 @@
 # Stytch Vanilla JavaScript example application
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/100632220/217049841-b9eeb72a-3e50-4074-839a-e64ee5d4a88c.png" width="750">
+  <a target="_blank" href="https://stytch-javascript-links.vercel.app/" >
+<img src="https://user-images.githubusercontent.com/100632220/217049841-b9eeb72a-3e50-4074-839a-e64ee5d4a88c.png" width="750">
+</a>
 </p>
 
-## Overview
+##<a target="_blank" href="https://stytch-javascript-links.vercel.app/" >Live Demo</a> - Overview
 
 
 This example application demonstrates how one may use Stytch within a Vanilla JavaScript application. There is a wide ecosystem of tools for building and serving JavaScript web apps each with their own implementation style and flavor. For that reason, this example is unopinionated and does not use additional tooling other than HTML, CSS, and our Vanilla JavaScript SDK. The entire application is served out of the `public` directory using [`http-server`](https://www.npmjs.com/package/http-server).
