@@ -6,6 +6,7 @@
 
 ## Overview
 
+
 This example application demonstrates how one may use Stytch within a Vanilla JavaScript application. There is a wide ecosystem of tools for building and serving JavaScript web apps each with their own implementation style and flavor. For that reason, this example is unopinionated and does not use additional tooling other than HTML, CSS, and our Vanilla JavaScript SDK. The entire application is served out of the `public` directory using [`http-server`](https://www.npmjs.com/package/http-server).
 
 This project uses Stytch's [JavaScript SDK](https://stytch.com/docs/sdks/javascript-sdk) which provides pre-built UI components and headless methods to securely interact with Stytch.
