@@ -13,7 +13,7 @@ const styles = {
   },
 };
 
-const REDIRECT_URL = "http://localhost:3000/authenticate";
+const REDIRECT_URL = "http://stytch-javascript-links.vercel.app/authenticate";
 const config = {
   products: [Products.emailMagicLinks, Products.oauth],
   emailMagicLinksOptions: {
