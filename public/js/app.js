@@ -17,9 +17,9 @@ The logic below listens to the existence of a Stytch Session to:
 
 */
 const ROUTES = {
-  LOGIN: "/",
-  AUTHENTICATE: "/authenticate",
-  PROFILE: "/profile",
+  LOGIN: "https://stytch-javascript-links.vercel.app/",
+  AUTHENTICATE: "https://stytch-javascript-links.vercel.app/authenticate",
+  PROFILE: "https://stytch-javascript-links.vercel.app/profile",
 };
 
 const PROTECTED_ROUTES = [ROUTES.PROFILE];
